@@ -12,6 +12,16 @@ This project analyzes a runner’s performance over time using Strava activity d
 - Data was stored and queried using MySQL.
 - Final insights were visualized using Power BI.
 
+## Project Structure
+running-performance-analysis/
+│
+├── data/ # Raw and processed datasets
+├── notebooks/ # Jupyter notebooks with analysis
+├── sql/ # SQL queries
+├── dashboard/ # Power BI dashboard file
+├── images/ # Dashboard screenshots
+└── README.md
+
 ## Tools
 - Python (data cleaning & analysis)
 - MySQL (data storage & querying)
@@ -39,6 +49,13 @@ The Power BI dashboard visualizes:
 - Performance trends over time
 - Training load (distance)
 - Relationship between pace and difficulty
+
+## How to Run
+
+1. Load the dataset from the `data/` folder.
+2. Run the analysis in the Jupyter notebook (`notebooks/analysis.ipynb`).
+3. Execute SQL queries from `sql/queries.sql` in MySQL.
+4. Open the Power BI file (`dashboard/dashboard.pbix`) to explore the dashboard.
 
 ## Limitations
 

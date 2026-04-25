@@ -13,14 +13,12 @@ This project analyzes a runner’s performance over time using Strava activity d
 - Final insights were visualized using Power BI.
 
 ## Project Structure
-running-performance-analysis/
-│
-├── data/ # Raw and processed datasets
-├── notebooks/ # Jupyter notebooks with analysis
-├── sql/ # SQL queries
-├── dashboard/ # Power BI dashboard file
-├── images/ # Dashboard screenshots
-└── README.md
+
+- [data](./data) – Raw and processed datasets  
+- [notebooks](./notebooks) – Jupyter notebook with analysis  
+- [sql](./sql) – SQL queries  
+- [dashboard](./dashboard) – Power BI file  
+- [images](./images) – Dashboard screenshots  
 
 ## Tools
 - Python (data cleaning & analysis)

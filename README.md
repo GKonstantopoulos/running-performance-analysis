@@ -24,6 +24,9 @@ This project analyzes a runner’s performance over time using Strava activity d
 
 ## Dashboard 
 
+![Dashboard](images/dashboard_image.png)
+
+
 The Power BI dashboard visualizes:
 - Performance trends over time
 - Training load (distance)
